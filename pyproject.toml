@@ -1,0 +1,19 @@
+[project]
+name = "video-analysis-agent"
+version = "0.1.0"
+description = "AI-powered Video Analysis Agent with LLM integration and RAG capabilities"
+authors = ["Your Name <you@example.com>"]
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.28.0",
+    "opencv-python>=4.8.0",
+    "openai>=1.0.0",
+    "langchain>=0.0.350",
+    "langchain-openai>=0.0.5",
+    "langchain-community>=0.0.20",
+    "faiss-cpu>=1.7.4",
+    "pillow>=10.0.0",
+    "numpy>=1.24.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0"
+]
